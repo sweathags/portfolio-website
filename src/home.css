@@ -1,0 +1,259 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+
+::selection {
+    background-color: #9b5de5;
+    color: white;
+}
+
+/***** Navbar *****/
+
+nav a {
+    color: rgb(40, 40, 40) !important;
+    font-size: 17px !important;
+    margin: 0 10px;
+    padding: 10px 20px !important;
+}
+
+nav a:hover {
+    color: #ffffff !important;
+    background-color: #9b5de5;
+    border-radius: 20px;
+}
+
+.navbar-toggler:hover {
+    border-color: #9b5de5 !important;
+    background-color: #9b5de5 !important;
+}
+
+/***** End Navbar *****/
+
+/***** Section-1 *****/
+
+#section-1 {
+    margin: 180px 0;
+    text-align: center;
+}
+
+#section-1 div {
+    padding-left: 20px;
+}
+
+#section-1 img {
+    width: 200px;
+}
+
+#section-1 .p1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #9b5de5;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: left;
+    padding: 0;
+}
+
+#section-1 .p2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #3d3d3d;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: left;
+    padding: 0;
+}
+
+#section-1 a {
+    align-content: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #9b5de5;
+    color: white;
+    border-radius: 30px;
+}
+
+/***** End Section-1 *****/
+
+/***** Section-2 *****/
+
+#section-2 {
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+#section-2 h2,
+#section-2 h3 {
+    text-align: center;
+}
+
+#section-2 h3 {
+    color: #ababab;
+    font-size: larger;
+}
+
+#section-2 h2 {
+    color: #9b5de5;
+    font-size: 50px;
+    padding: 8px 0;
+    font-weight: 900;
+}
+
+.about-para {
+    padding: 30px 0;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.Table {
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+}
+
+.Table p {
+    padding: 0 15px;
+    color: rgb(47, 47, 47);
+    font-weight: 400;
+}
+
+.Table b {
+    color: #9b5de5;
+}
+
+/***** End Section-2 *****/
+
+/***** Section-3 *****/
+
+#section-3 {
+    padding: 80px;
+    background-color: white;
+}
+
+#section-3 h2,
+#section-3 h3 {
+    text-align: center;
+}
+
+#section-3 h3 {
+    color: #ababab;
+    font-size: larger;
+}
+
+#section-3 h2 {
+    color: #9b5de5;
+    font-size: 50px;
+    padding: 10px 0;
+    font-weight: 900;
+}
+
+#section-3 h4 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+    font-weight: 700;
+    color: rgb(47, 47, 47);
+    letter-spacing: 3px !important;
+}
+
+#section-3 p {
+    margin: 0 10px;
+}
+
+.progress {
+    height: 9px !important;
+    margin: 3px 10px 15px 10px;
+}
+
+.progress-bar {
+    background-color: #9b5de5 !important;
+}
+
+
+/***** End Section-3 *****/
+
+
+/***** Section-4 *****/
+
+#section-4 {
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+#section-4 h2 {
+    text-align: center;
+    color: #ababab;
+    font-size: larger;
+}
+
+#section-4 h2 {
+    color: #9b5de5;
+    font-size: 50px;
+    padding: 8px 0;
+    font-weight: 900;
+}
+
+#section-4 ion-icon {
+    color: #9b5de5;
+}
+
+#section-4 img {
+    width: 200px;
+    border-color: #3d3d3d;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+
+
+/***** End Section-4 *****/
+
+/***** Section-5 *****/
+
+#section-5 {
+    padding: 80px;
+    background-color: white;
+}
+
+#section-5 h2,
+#section-5 h3 {
+    text-align: center;
+}
+
+#section-5 h3 {
+    color: #ababab;
+    font-size: larger;
+}
+
+#section-5 h2 {
+    color: #9b5de5;
+    font-size: 50px;
+    padding: 10px 0;
+    font-weight: 900;
+}
+
+ion-icon {
+    font-size: 35px;
+    color: black;
+}
+
+/***** End Section-5 *****/
+
+/***** Footer *****/
+
+footer {
+    background-color: #9b5de5;
+    color: white;
+    height: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/***** End Footer *****/
